@@ -3,8 +3,8 @@ body{
     display: grid;
     grid-template-areas:'header header header header'
                         'nav nav nav nav'
-                        'sakura sakura kakashi kakashi'
-                        'minato minato minato minato';
+                        'section section aside aside'
+                        'footer footer footer';
      grid-template-rows: 20vh 15vh 50vh 30vh;     
      grid-template-columns: 20% 20% 20% 20%;
      background-color: black;   
@@ -47,17 +47,20 @@ nav a{
 section{
     align-items: center;
     background-color: green:
-    grid-area: sakura;
+    grid-area: section;
     
 }
 aside{
-    grid-area: kakashi;
+    grid-area:aside;
     background-color: yellow;
     display: inline;
-    
+
 }
 footer{
-    grid-area: minato;
+    grid-area: footer;
     background-color: purple;
-}
 
+}
+footer a{
+    
+}
