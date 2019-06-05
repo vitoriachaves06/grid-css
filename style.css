@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas:'header header header header'
+                        'sasuke sasuke sasuke sasuke'
+                        'sakura sakura kakashi kakashi'
+                        'minato minato minato minato';
+     grid-template-rows: 20vh 15vh 50vh 30vh;     
+     grid-gap: 10px;
+     background-color: black;            
+                    
+}
+
+header{
+    grid-area:header;
+    background-color: red;
+}
+nav{
+    grid-area: sasuke;
+    background-color: blue;
+}
+section{
+    grid-area: sakura;
+    background-color: green;
+}
+aside{
+    grid-area: kakashi;
+    background-color: yellow;
+}
+footer{
+    grid-area: minato;
+    background-color: purple;
+}
